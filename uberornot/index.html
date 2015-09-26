@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Uber or Not</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section>
+			<h1>Uber or Not</h1>
+			<div class="info-container">
+				<span class="info-header">From</span>
+				<span class="info where">Current Location</span>
+			</div>
+			<div class="info-container">
+				<span class="info-header">To</span>
+				<span class="info where">SFO</span>
+			</div>
+			<div class="info-container">
+				<span class="info-header">Departure</span>
+				<span class="info where">
+				<p><input type="text" id="departDate"></p>
+			    </span>
+			</div>
+		    <div class="info-container">
+			   <span class="info-header">Return</span>
+			   <span class="info where">
+			   <p><input type="text" id="retDate"></p>
+		       </span>
+		    </div>
+		    <div class="info-container">
+			   <span class="info-header">Parking Cost</span>
+			   <span class="info where">
+		       <p id="parking">ESTIMATING Cost</p>
+		       </span>
+		    </div>
+			
+			<a href="#">
+			  <div class="button">
+			    <p id="time">ESTIMATING Cost</p>
+			  </div>
+			</a>
+		</section>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="js/uber.js"></script>
+		
+	</body>
+
+</html>
